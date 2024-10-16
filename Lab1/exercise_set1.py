@@ -10,6 +10,7 @@ import matplotlib as plt
 # ex1
 def exercise1():
     a = 1
+    b=2
 
 
 # ex2
