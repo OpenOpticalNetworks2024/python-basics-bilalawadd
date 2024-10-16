@@ -47,6 +47,16 @@ def exercise6():
 
 # ex7
 def exercise7():
+    list1=[1,2,3,4,5,55,66,65,23,45,23]
+    list2=[65,87,24,5,7,2234,2345,2347,78654,99]
+    list3=[]
+    for i in list1:
+        if i%2 !=0:
+            list3.append(i)
+    for i in list2:
+        if i%2 ==0:
+            list3.append(i)
+    print(list3)
     pass
 
 
@@ -77,4 +87,5 @@ def exercise12():
 
 if __name__ == "__main__":
     print("EXERCISE SET 1")
-    exercise6()
+    #exercise6()
+    exercise7()
