@@ -62,7 +62,30 @@ def exercise7():
 
 # ex8
 def exercise8():
-    pass
+    s1=[0,1,2,3,4,5,6]
+    s2=[7,8,9]
+    s3=[]
+
+    if len(s1)%2==0:
+     for i in range(len(s1)):
+            if i==len(s1)/2:
+                for j in range(len(s2)):
+                    s3.append(s2[j])
+
+                s3.append(s1[i])
+            else:
+                    s3.append(s1[i])
+    if len(s1)%2!=0:
+     for i in range(len(s1)):
+            if i==(len(s1)+1)/2:
+                for j in range(len(s2)):
+                    s3.append(s2[j])
+
+                s3.append(s1[i])
+            else:
+                    s3.append(s1[i])
+    print(s3)
+
 
 
 # ex9
@@ -88,4 +111,4 @@ def exercise12():
 if __name__ == "__main__":
     print("EXERCISE SET 1")
     #exercise6()
-    exercise7()
+    exercise8()
