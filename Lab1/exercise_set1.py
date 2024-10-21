@@ -90,6 +90,7 @@ def exercise8():
 
 # ex9
 def exercise9():
+    a=3
     pass
 
 
